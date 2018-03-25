@@ -1,0 +1,10 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/style.css: {}
+      css/app.css: {}
+      css/newfile.css: {}
+      css/fontaws.css: {}
+  js:
+    js/portfolio_theme.js: {}

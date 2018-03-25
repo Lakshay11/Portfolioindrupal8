@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+  .dallef li a {
+  margin-top: 0;
+  margin-bottom: 0; }
+  .less-top{
+  	margin-top: 0;
+  }
+  .more-top{
+  	margin-top: 26px;
+  }
+  .no-top{
+  	margin-top: 0;
+  }
+  #wrapper #topsec a{
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+  }
+  #gallery .adjustimg{
+  	width: 100%;
+  }
+  .alitwihead{
+  	width: 100%;
+  }
+  .twiro{
+  	width: 90%;
+  }
+  .allir{
+  	display: none;
+  }
+}

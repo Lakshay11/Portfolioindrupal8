@@ -1,0 +1,686 @@
+#container {
+  max-width: 100%;
+  height: auto; }
+  #container .row {
+    max-width: 75rem; }
+
+#wrapper {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  background-image: url("../images/backk.jpg");
+  min-height: 700px; }
+  #wrapper #topsec {
+    width: auto;
+    max-width: 100%;
+    background-color: #3B3B3B;
+    color: #ffffff;
+    opacity: .85; }
+    #wrapper #topsec .navmenucolor {
+      background-color: inherit;
+      color: #ffffff;
+      font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+    #wrapper #topsec h1 {
+      color: #ffffff;
+      margin-top: 22px;
+      font-size: 30px;
+      font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: bold; }
+    #wrapper #topsec a {
+      color: #fff;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    #wrapper #topsec .highblue {
+      color: #4bcaff; }
+    #wrapper #topsec .createspace {
+      margin-top: 10px; }
+    #wrapper #topsec a {
+      padding: 10px 15px;
+      display: inline-block;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      color: white;
+      transition: all 200ms ease-in;
+      border-radius: 0;
+      font-family: "Segoe UI" , Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+      text-decoration: none;
+      font-size: 14px;
+      text-transform: uppercase;
+      border: 2px solid transparent; }
+    #wrapper #topsec a:before, #wrapper #topsec a:after {
+      display: block;
+      width: 100%;
+      content: '';
+      box-sizing: border-box;
+      position: absolute;
+      height: 0px; }
+    #wrapper #topsec a:before {
+      border-top: 2px solid #4bcaff;
+      border-right: 2px solid #4bcaff;
+      left: -100%;
+      top: 0;
+      height: 0px; }
+    #wrapper #topsec a:after {
+      border-bottom: 2px solid #4bcaff;
+      border-left: 2px solid #4bcaff;
+      left: 100%;
+      bottom: 0;
+      height: 0px; }
+@-webkit-keyframes left-up {
+  0% {
+    left: 100%;
+    height: 0; }
+  50% {
+    left: 0;
+    height: 0; }
+  100% {
+    height: 100%;
+    left: 0; } }
+@-webkit-keyframes right-dn {
+  0% {
+    left: -100%;
+    height: 0; }
+  50% {
+    left: 0;
+    height: 0; }
+  100% {
+    height: 100%;
+    left: 0; } }
+    #wrapper #topsec a:hover {
+      color: #4bcaff;
+      opacity: 1;
+      font-style: 18px;
+      font-weight: bold; }
+    #wrapper #topsec a:hover:after, #wrapper #topsec a:hover:before {
+      -webkit-animation-duration: 900ms;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-fill-mode: forwards; }
+    #wrapper #topsec a:hover:after {
+      -webkit-animation-name: left-up; }
+    #wrapper #topsec a:hover:before {
+      -webkit-animation-name: right-dn; }
+    #wrapper #topsec .dallef {
+      position: relative;
+      float: right; }
+  #wrapper #banner {
+    clear: both;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px; }
+    #wrapper #banner .centredheading {
+      text-align: center;
+      width: auto;
+      opacity: .65; }
+    #wrapper #banner .banerhaeding1 {
+      color: white;
+      text-align: center;
+      background-color: #3B3B3B;
+      width: auto;
+      max-width: 100%;
+      font-size: 35px;
+      font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+      text-transform: uppercase;
+      display: inline-block;
+      padding-right: 5px;
+      padding-left: 5px; }
+    #wrapper #banner .banerhaeding2 {
+      color: white;
+      text-align: center;
+      background-color: #3B3B3B;
+      min-width: auto;
+      width: auto;
+      font-size: 35px;
+      font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+      text-transform: uppercase; }
+
+#services {
+  position: relative;
+  background-color: #4bcaff;
+  height: auto;
+  max-width: 100%;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase; }
+  #services .servicesheading {
+    position: relative;
+    float: left;
+    left: 10px;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: -40px; }
+  #services .coffee {
+    position: relative;
+    top: 80px;
+    min-height: 332px;
+    display: block;
+    margin-bottom: 20px; }
+  #services .pser {
+    font-size: 12px; }
+  #services .coffeeimage {
+    position: relative;
+    float: left; }
+  #services .textarea {
+    display: block;
+    color: white;
+    background-color: #4bcaff;
+    max-width: 100%; }
+  #services .foradding {
+    background-color: #4bcaff;
+    height: auto; }
+  #services .coffhead {
+    clear: both;
+    font-size: 20px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    padding-top: 15px; }
+  #services .underlined {
+    text-decoration: underline; }
+
+#Portfol {
+  position: relative;
+  clear: both;
+  padding-top: 20px;
+  max-width: 100%;
+  height: auto;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+  #Portfol .leftaligned {
+    position: relative;
+    float: left; }
+  #Portfol .rightaligned {
+    position: relative;
+    float: right; }
+  #Portfol .edittedsec {
+    position: relative;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+    padding-bottom: 5px; }
+  #Portfol .portheading {
+    position: relative;
+    float: left;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 15px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+  #Portfol .underlined {
+    text-decoration: underline; }
+  #Portfol .fflr {
+    position: relative;
+    float: right; }
+  #Portfol .allir {
+    position: relative;
+    float: right; }
+  #Portfol li {
+    display: inline;
+    list-style-type: none; }
+  #Portfol a {
+    background: #ffffff;
+    padding: 10px 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    transition: all 200ms ease-in;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px; }
+  #Portfol a:before, #Portfol a:after {
+    display: block;
+    width: 100%;
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    height: 0px; }
+  #Portfol a:before {
+    border-top: 2px solid #4bcaff;
+    border-right: 2px solid #4bcaff;
+    left: -100%;
+    top: 0;
+    height: 0px; }
+  #Portfol a:after {
+    border-bottom: 2px solid #4bcaff;
+    border-left: 2px solid #4bcaff;
+    left: 100%;
+    bottom: 0;
+    height: 0px; }
+@-webkit-keyframes left-up {
+  0% {
+    left: 100%;
+    height: 0; }
+  50% {
+    left: 0;
+    height: 0; }
+  100% {
+    height: 100%;
+    left: 0; } }
+@-webkit-keyframes right-dn {
+  0% {
+    left: -100%;
+    height: 0; }
+  50% {
+    left: 0;
+    height: 0; }
+  100% {
+    height: 100%;
+    left: 0; } }
+  #Portfol a:hover {
+    background: white;
+    color: #4bcaff;
+    font-size: 12px;
+    font-weight: bold; }
+  #Portfol a:hover:after, #Portfol a:hover:before {
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards; }
+  #Portfol a:hover:after {
+    -webkit-animation-name: left-up; }
+  #Portfol a:hover:before {
+    -webkit-animation-name: right-dn; }
+
+#gallery {
+  position: relative;
+  margin-top: 10px; }
+  #gallery .settler {
+    position: relative; }
+  #gallery .galleryadjuest {
+    position: relative; }
+  #gallery .adjustimg {
+    position: relative;
+    width: 276px;
+    height: 276px;
+    margin-bottom: 30px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block; }
+  #gallery .middle21 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; }
+  #gallery .settler:hover .adjustimg {
+    opacity: 0.8; }
+  #gallery .settler:hover .middle21 {
+    opacity: 1; }
+  #gallery .ext {
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 100; }
+
+#devid {
+  position: relative;
+  margin-top: 20px;
+  background-color: #3B3B3B;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+  #devid .providd {
+    background-color: #3B3B3B;
+    padding-top: 40px;
+    padding-bottom: -60px; }
+  #devid .somewrittendata {
+    position: relative;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center; }
+  #devid .underlined {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #fff; }
+  #devid .notunder {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 28px; }
+  #devid .ditvisr {
+    position: relative;
+    padding-top: 40px;
+    min-width: 500px;
+    min-height: 315px;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 0;
+    float: right; }
+  #devid .aliforp {
+    position: relative;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 70px; }
+  #devid .devbut {
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    color: black;
+    text-transform: uppercase; }
+  #devid .budev {
+    padding-top: 50px;
+    position: relative;
+    float: left; }
+
+#bgcofordevid {
+  width: auto;
+  height: auto;
+  background-color: #3B3B3B; }
+
+#twitt {
+  position: relative;
+  background-color: #4bcaff;
+  max-width: 100%;
+  height: auto;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+  #twitt .netwo {
+    position: relative;
+    padding-top: 40px; }
+  #twitt .twiro {
+    position: relative;
+    padding-top: 20px; }
+  #twitt .twiheading {
+    position: relative;
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+  #twitt .underlined {
+    text-transform: uppercase;
+    text-decoration: underline; }
+  #twitt .twitic {
+    position: absolute;
+    right: 0; }
+  #twitt .alitwihead {
+    position: relative;
+    float: left;
+    left: 13px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    color: #fff;
+    font-size: 19px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+
+#johnnndo {
+  position: relative;
+  min-height: 400px;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  background-image: url("../images/camer.jpg");
+  max-height: 100%; }
+  #johnnndo .row {
+    max-width: 75rem; }
+  #johnnndo .textdet {
+    position: absolute; }
+  #johnnndo .johnhead {
+    position: relative;
+    float: left;
+    padding-top: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+  #johnnndo .underlined {
+    text-decoration: underline; }
+  #johnnndo .johnpara {
+    position: relative;
+    color: #fff;
+    margin-top: 40px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px; }
+  #johnnndo .adjpr {
+    position: relative;
+    right: 0; }
+  #johnnndo .adjpl {
+    position: relative;
+    left: -10px;
+    margin: 0; }
+  #johnnndo .fa {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: 1px solid white; }
+  #johnnndo .fa-twitter {
+    color: white; }
+  #johnnndo .fa-google {
+    color: white; }
+  #johnnndo .fa-dribbble {
+    color: white; }
+  #johnnndo .fa-flickr {
+    color: white; }
+
+#testimo {
+  position: relative;
+  margin-top: 20px;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  min-height: 220px;
+  height: auto; }
+  #testimo .row {
+    max-width: 75rem; }
+  #testimo .testimhead {
+    position: relative;
+    float: left;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 20px; }
+  #testimo .underlined {
+    text-decoration: underline; }
+  #testimo .alife {
+    position: relative;
+    float: right;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 20px; }
+  #testimo .rmvpddr {
+    padding-right: 0; }
+  #testimo .rmvpddl {
+    padding-left: 0; }
+  #testimo .texare {
+    position: relative;
+    float: left;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+  #testimo .sorcom {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: black;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+  #testimo .lashea {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+
+#contajo {
+  position: relative;
+  margin: 0 auto;
+  background-image: url("../images/cupof.jpg");
+  min-height: 650px;
+  height: auto; }
+  #contajo .row {
+    max-width: 75rem; }
+  #contajo .conhea {
+    min-height: 80px; }
+  #contajo .underlined {
+    text-decoration: underline; }
+  #contajo .heaicf {
+    position: relative;
+    color: #fff;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 20px; }
+  #contajo .adjfor {
+    position: relative;
+    padding-top: 45px;
+    color: #fff;
+    max-width: 100%; }
+  #contajo .laco, #contajo p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    padding-left: 0; }
+  #contajo [type='text'], #contajo [type='password'], #contajo [type='date'], #contajo [type='datetime'], #contajo [type='datetime-local'], #contajo [type='month'], #contajo [type='week'], #contajo [type='email'], #contajo [type='number'], #contajo [type='search'], #contajo [type='tel'], #contajo [type='time'], #contajo [type='url'], #contajo [type='color'],
+  #contajo textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.4375rem;
+    margin: 0 0 1rem;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    background-color: transparent;
+    opacity: 0.8;
+    border: 2px solid white;
+    color: #fff;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+  #contajo [type='text']:focus, #contajo [type='password']:focus, #contajo [type='date']:focus, #contajo [type='datetime']:focus, #contajo [type='datetime-local']:focus, #contajo [type='month']:focus, #contajo [type='week']:focus, #contajo [type='email']:focus, #contajo [type='number']:focus, #contajo [type='search']:focus, #contajo [type='tel']:focus, #contajo [type='time']:focus, #contajo [type='url']:focus, #contajo [type='color']:focus,
+  #contajo textarea:focus {
+    outline: none;
+    border: 2px solid white;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
+  #contajo textarea {
+    max-width: 100%; }
+  #contajo textarea[rows] {
+    height: auto; }
+  #contajo input::-webkit-input-placeholder,
+  #contajo textarea::-webkit-input-placeholder {
+    color: #cacaca; }
+  #contajo input::-moz-placeholder,
+  #contajo textarea::-moz-placeholder {
+    color: #cacaca; }
+  #contajo input:-ms-input-placeholder,
+  #contajo textarea:-ms-input-placeholder {
+    color: #cacaca; }
+  #contajo input::placeholder,
+  #contajo textarea::placeholder {
+    color: #cacaca; }
+  #contajo input:disabled, #contajo input[readonly],
+  #contajo textarea:disabled,
+  #contajo textarea[readonly] {
+    background-color: #e6e6e6;
+    cursor: not-allowed; }
+  #contajo [type='submit'],
+  #contajo [type='button'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 3px; }
+  #contajo input[type='search'] {
+    box-sizing: border-box; }
+  #contajo [type='file'],
+  #contajo [type='checkbox'],
+  #contajo [type='radio'] {
+    margin: 0 0 1rem; }
+  #contajo [type='checkbox'] + label,
+  #contajo [type='radio'] + label {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0; }
+  #contajo [type='checkbox'] + label[for],
+  #contajo [type='radio'] + label[for] {
+    cursor: pointer; }
+  #contajo label > [type='checkbox'],
+  #contajo label > [type='radio'] {
+    margin-right: 0.5rem; }
+  #contajo [type='file'] {
+    width: 100%; }
+  #contajo .mesbo {
+    min-height: 150px;
+    padding-left: 0; }
+  #contajo .suhol {
+    position: absolute;
+    left: 18%; }
+  #contajo .sunbt {
+    position: relative;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #fff;
+    background-color: #4bcaff;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold; }
+  #contajo .adcl {
+    padding-left: 0; }
+  #contajo .adctr {
+    position: relative;
+    margin-top: 20px; }
+
+#footer {
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  position: relative;
+  min-height: 100px;
+  background-color: #353f47;
+  bottom: 0;
+  clear: both;
+  overflow: auto;
+  margin: 0; }
+  #footer .lifoo {
+    position: relative;
+    max-width: 50%;
+    margin-left: 25px;
+    padding-right: 25px;
+    margin-top: 40px;
+    border-right: 1px solid #4a575f;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #4a575f;
+    font-size: 16px;
+    font-weight: bold; }
+  #footer a:hover {
+    color: #4bcaff;
+    opacity: 1;
+    font-style: 16px;
+    font-weight: bold; }
+  #footer .row {
+    max-width: 75rem; }
+
+.row {
+  max-width: 75rem; }
+
+/*# sourceMappingURL=style.css.map */
